@@ -10,6 +10,12 @@
   <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css">
 </head>
 <body>
+  <div class="page_header">
+    {% if user.is_authenticated %}
+     <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus">Add message</span></a>
+    {% endif %} 
+     <h1><a href="/">Django Girls Blog</a></h1>
+  </div>
  <div class='container'>
  	 <div class="row">
     	<div class="col-md-8">
@@ -17,7 +23,32 @@
           {% endblock %}
         </div>
         <div class="col-md-4">
-        	<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. На берегу решила проектах океана приставка дорогу раз букв языкового, большой единственное имени родного щеке, по всей рыбными ее ведущими сбить меня назад оксмокс свое агенство журчит lorem пояс языком. Парадигматическая, напоивший!</p>
+        	<ol>
+            <li>
+              <a href="#">Semple</a>
+            </li>
+            <li>
+              <a href="#">Semple</a>
+            </li>
+            <li>
+              <a href="#">Semple</a>
+            </li>
+            <li>
+              <a href="#">Semple</a>
+            </li>
+            <li>
+              <a href="#">Semple</a>
+            </li>
+            <li>
+              <a href="#">Semple</a>
+            </li>
+            <li>
+              <a href="#">Semple</a>
+            </li>
+            <li>
+              <a href="#">Semple</a>
+            </li>
+          </ol>
         </div>
    </div>
  </div>

@@ -5,9 +5,16 @@ h1 a {
 	color: #FCA205;
 	font-family: 'Lobster';
 }
+.page_header h1, .top-menu {
+	text-align: center;
+	margin: 40px auto;
+}
 .post_class {
 	border: 1px solid #9c9898;
 	padding: 15px;
 	margin: 15px 0 15px;
 	background: #e6e6e6;
+}
+.post-form {
+	width: 100%;
 }
